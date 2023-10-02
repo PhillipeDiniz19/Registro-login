@@ -1,5 +1,5 @@
 import './login.css'
-import  {useState, useEffect, React} from 'react';
+import  {useState, React} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -24,8 +24,6 @@ function Login() {
           
           })
           .catch(err => console.log(err))
-
-
     }
     return(  
         <div onSubmit={eventdefault}>

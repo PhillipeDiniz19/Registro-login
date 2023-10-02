@@ -1,13 +1,11 @@
-import React from "react";
+import react from "react"
 
-
-
-function HOMEPAGE() {
-    return (
+function homepage() {
+    return(
         <div>
-            ENTROU HOMEPAGE
+            Seja Bem-vindo
         </div>
     )
 }
 
-export default HOMEPAGE
+export default homepage

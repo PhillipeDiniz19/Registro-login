@@ -14,7 +14,7 @@ app.post('/login', (req, res) => {
   RegistroSchema.findOne({email: email})
   .then(user => {
     if(user) {
-      if(user.password === password){
+      if(user.password === password && user.email === email){
         res.json("Sucesso")
       }else {
         res.json("Senha incorreta")
