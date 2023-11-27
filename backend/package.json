@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "type": "module",
-    "vercel-build": "npx mongodb migrate deploy"
+    "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
